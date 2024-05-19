@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background: #eee;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    background: #1F2937;
+    padding: 20px 40px 20px 40px;
+}
+.links{
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    align-self: center;
+}
