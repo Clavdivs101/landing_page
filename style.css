@@ -1,6 +1,12 @@
 body{
     margin: 0;
     background: #eee;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 0;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -12,7 +18,7 @@ ul{
 .header{
     display: flex;
     background: #1F2937;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 60px 20px 60px;
 }
 .links{
     display: flex;
@@ -25,3 +31,57 @@ ul{
     font-size: 24px;
     align-self: center;
 }
+
+.hero{
+    background: #1F2937;
+    border: 20px;
+    border-color: red;
+    color: #f9faf8;
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    /*justify-content: space-evenly;*/
+    padding: 20px 60px 20px 60px;
+    
+}
+
+.text{
+    /*display: flex;*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+   
+}
+
+.sign-up{
+    margin-top: 20px;
+    background:#3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.image{
+    display: flex;
+    flex-basis: 50%;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 200px;
+    background: #E5E7EB;
+    color: black;
+}
+
+
+
+
