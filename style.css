@@ -18,7 +18,7 @@ ul{
 .header{
     display: flex;
     background: #1F2937;
-    padding: 20px 60px 20px 60px;
+    padding: 20px 150px 20px 150px;
 }
 .links{
     display: flex;
@@ -41,7 +41,7 @@ ul{
     flex: 1;
     align-items: flex-start;
     /*justify-content: space-evenly;*/
-    padding: 20px 60px 20px 60px;
+    padding: 20px 150px 20px 150px;
     
 }
 
@@ -82,6 +82,51 @@ ul{
     color: black;
 }
 
+.title{
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    
+}
 
+.container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
 
+.container-1,
+.container-2,
+.container-3,
+.container-4{
+    gap: 20px;
+    width: 150px;
+    height: 150px;
+    background: #3882f6;
+    border-radius: 10px;
+
+}
+
+.text-container{
+    flex-wrap: wrap;
+    margin-top: 170px;
+}
+
+.quote{
+    margin-top: 100px;
+    background: #E5E7EB;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+}
 
